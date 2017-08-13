@@ -26,7 +26,7 @@
   -i 100000000 -f 1000000" > hptresult.csv
   ```
 Result comparison:
-
+![](/chapter1/hroverall.PNG)
 
 
 
