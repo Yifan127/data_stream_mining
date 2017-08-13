@@ -1,7 +1,8 @@
 ### MOA: Try to use different change detector 
 
-* Use at least 3 change detectors with Hoeffding Tree as base learner, for a Airline real dataset using Prequential Evaluator.
-  1. ADWIN
+* Use at least 3 change detectors with **Hoeffding Tree** as base learner, for a **Airline** real dataset using **Prequential Evaluator**.
+  
+  1. **ADWIN**
   ```
   java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask \
   "EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d ADWINChangeDetector) \
@@ -9,26 +10,27 @@
   -e (WindowClassificationPerformanceEvaluator -w 10000) \
   -i 100000000 -f 1000000" > adwinresult.csv
   ```
-  2. SEED
+
+  2. **SEED**
   ```
   EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d SEEDChangeDetector)
   ```
-  3. PHT
+  3. **PHT**
   ```
   EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d PageHinkleyDM)
   ```
-  4. Cusum
+  4. **Cusum**
   ```
   EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d CusumDM)
   ```
-  5. DDM
+  5. **DDM**
   ```
   EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d DDM)
   ```
 Result comparison:
 ![](/chapter1/htoverall.PNG)
 
-  * Use the same dataset and evaluator, change classifier to Naive Bayes.
+  * Use the same dataset and evaluator, change classifier to **Naive Bayes**.
   ![](/chapter1/nboverall.PNG)
 
 
