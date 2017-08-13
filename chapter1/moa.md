@@ -1,6 +1,6 @@
 ### MOA Practice
 
-* Compare 3 drift detection methods with Hoeffding Tree as base learner, for a Airline real dataset using Prequential Evaluator with a sliding window of 1,000 instances.
+* Compare 3 drift detection methods with Hoeffding Tree as base learner, for a Airline real dataset using Prequential Evaluator.
   1. ADWIN
   ```
   java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask \
