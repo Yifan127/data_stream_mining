@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Week1](chapter1.md)
-  * [MOA](chapter1/moa.md)
+  * [Change detector](chapter1/moa.md)
 
