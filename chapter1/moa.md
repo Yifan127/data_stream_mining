@@ -1,4 +1,4 @@
-### MOA Practice
+### Try to use different change detector
 
 * Compare 3 drift detection methods with Hoeffding Tree as base learner, for a Airline real dataset using Prequential Evaluator.
   1. ADWIN
