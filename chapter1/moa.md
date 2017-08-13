@@ -22,8 +22,11 @@
   EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d CusumDM)
   ```
   5. DDM
+  ```
+  EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d DDM)
+  ```
 Result comparison:
-
+![](/chapter1/hroverall.PNG)
 
 
 
