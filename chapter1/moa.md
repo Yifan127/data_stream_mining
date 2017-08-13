@@ -11,19 +11,15 @@
   ```
   2. SEED
   ```
-  java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask \
-  "EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d SEEDChangeDetector)  \
-  -s (ArffFileStream -f D:\Dev\moa\dataset\airlines.arff) \
-  -e (WindowClassificationPerformanceEvaluator -w 10000) \
-  -i 100000000 -f 1000000" > seedresult.csv
+  EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d SEEDChangeDetector)
   ```
   3. HPT
   ```
-  java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask \
-  "EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d PageHinkleyDM)  \
-  -s (ArffFileStream -f D:\Dev\moa\dataset\airlines.arff) \
-  -e (WindowClassificationPerformanceEvaluator -w 10000) \
-  -i 100000000 -f 1000000" > hptresult.csv
+  EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d PageHinkleyDM)
+  ```
+  4. Cusum
+  ```
+  EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d CusumDM)
   ```
 Result comparison:
 ![](/chapter1/hroverall.PNG)
