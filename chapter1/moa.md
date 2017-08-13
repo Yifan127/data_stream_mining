@@ -1,12 +1,14 @@
 ### MOA Practice
 
 * Try change detector on real data set
-  * Task: learn model from a stream
+  * Task: Learn model
   * Learner: drift.SingleClassifierDrift
-  * Datasets: Airline, CoverType, Electricity
   * Classifier: HoeffdingTree
-* Change detectors: 
+  * ConceptDriftRealStream : Airline, CoverType, Electricity
+* Change detectors:
+
   * ADWIN
+
     ```
     D:\Dev\moa>java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask \
     LearnModel -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d ADWINChangeDetector) \
@@ -18,14 +20,12 @@
 
     ![](/chapter1/adwin.PNG)
 
-  * * SEED
+  * SEED
   * PHT
 
 ```
 
 ```
-
-
 
 
 
