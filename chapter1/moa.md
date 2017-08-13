@@ -25,6 +25,8 @@
   -e (WindowClassificationPerformanceEvaluator -w 10000) \
   -i 100000000 -f 1000000" > hptresult.csv
   ```
+Result comparison:
+
 
 
 
