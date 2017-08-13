@@ -1,9 +1,9 @@
 ### MOA: Try to generate synthetic datasets
 
-Compare the accuracy of the Hoeffding Tree with the Naive Bayes
-classifier, for a RandomRBFGenerator stream of 1,000,000 instances with speed change of 0,001 using Interleaved Test-Then-Train evaluation.
+*  Generating synthetic streams, using **Interleaved Test-Then-Train evaluation** with **Hoeffding Tree** as base learner and 
+**ADWIN** as change detector.
 
-1. RandomRBFGeneratorDrift
+1. **RandomRBFGeneratorDrift** with speed change of 0.001
 ```
 java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask \
 EvaluateInterleavedTestThenTrain -l (moa.classifiers.drift.SingleClassifierDrift -l trees.HoeffdingTree -d ADWINChangeDetector) \
