@@ -1,4 +1,4 @@
-### MOA: Try to use different change detector 
+### MOA: Try to use different change detectors 
 
 * Use at least 3 change detectors with **Hoeffding Tree** as base learner, for a **Airline** real dataset using **Prequential Evaluator**.
   
