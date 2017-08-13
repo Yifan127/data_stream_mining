@@ -13,7 +13,7 @@
   ```
   EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d SEEDChangeDetector)
   ```
-  3. HPT
+  3. PHT
   ```
   EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d PageHinkleyDM)
   ```
@@ -28,14 +28,12 @@
 Result comparison:
 ![](/chapter1/hroverall.PNG)
 
+* Use the same dataset and evaluator, change classifier to  .
 
 
-* Try change detector on real data set
-  * Task: Learn model
-  * Learner: drift.SingleClassifierDrift
-  * Classifier: HoeffdingTree
-  * ConceptDriftRealStream : Airline, CoverType, Electricity
-* Change detectors:
+
+
+
 
   * ADWIN
 
