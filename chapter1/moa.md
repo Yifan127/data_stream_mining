@@ -2,7 +2,7 @@
 
 * Compare 3 drift detection methods with Hoeffding Tree classifier as base learner, for a real dataset stream of 1,000,000 instances using Prequential Evaluator with a sliding window of 1,000 instances.
   1. ADWIN
-  ```
+  ```{java}
   java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask "EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d ADWINChangeDetector)  -s (ArffFileStream -f D:\Dev\moa\dataset\airlines.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000000 -f 1000000" > adwinresult.csv
   ```
   2. SEED
