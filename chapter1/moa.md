@@ -1,6 +1,6 @@
 ### Try to use different change detector
 
-* Compare at least 3 drift detection methods with Hoeffding Tree as base learner, for a Airline real dataset using Prequential Evaluator.
+* Compare at least 3 change detectors with Hoeffding Tree as base learner, for a Airline real dataset using Prequential Evaluator.
   1. ADWIN
   ```
   java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask \
