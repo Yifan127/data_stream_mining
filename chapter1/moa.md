@@ -32,6 +32,9 @@
     -d (ArffFileStream -f D:\Dev\moa\dataset\covtypeNorm.arff) -p 1000000 -w 5000) -p 500000 -w 5000) \
     -O D:\UoA\Dissertation\Week1\PHT.moa
     ```
+    ![](/chapter1/PHT.PNG)
+
+
 
 
 
