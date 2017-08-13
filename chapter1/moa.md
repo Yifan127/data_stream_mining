@@ -23,7 +23,7 @@
   ```
   5. DDM
 Result comparison:
-![](/chapter1/hroverall.PNG)
+
 
 
 
