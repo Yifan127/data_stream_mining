@@ -26,9 +26,12 @@
   EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d DDM)
   ```
 Result comparison:
-![](/chapter1/hroverall.PNG)
+![](/chapter1/htoverall.PNG)
 
-* Use the same dataset and evaluator, change classifier to  .
+  * Use the same dataset and evaluator, change classifier to Naive Bayes.
+  ![](/chapter1/nboverall.PNG)
+
+
 
 
 
