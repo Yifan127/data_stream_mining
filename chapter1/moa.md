@@ -30,7 +30,7 @@
 Result comparison:
 ![](/chapter1/htoverall.PNG)
 
-  * Use the same dataset and evaluator, change classifier to **Naive Bayes**.
+* Use the same dataset and evaluator, change classifier to **Naive Bayes**.
   ![](/chapter1/nboverall.PNG)
 
 

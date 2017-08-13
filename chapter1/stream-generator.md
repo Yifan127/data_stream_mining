@@ -11,6 +11,13 @@
     -i 1000000 -f 10000" > rbfresult.csv
     ```
     2. **HyperplaneGenerator** with 0.001 magnitude
+    
     ```
     -s (generators.HyperplaneGenerator -t 0.001)
+    ```
+    
+    3.
+    
+    ```
+    -s (generators.LEDGeneratorDrift -d 2 -i 2 -n 15 -s)
     ```
