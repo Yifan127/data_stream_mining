@@ -15,4 +15,5 @@
     ```
     correct %
     
-    ![](/chapter1/ht_stream_generator.PNG)
+    ![](/chapter1/ht_correct.PNG)
+    ![](/chapter1/ht_kappa.PNG)
