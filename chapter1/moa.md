@@ -54,7 +54,7 @@
 #### Questions:
 1. In PHT, what is this parameter alpha for？
 
-sum = this.alpha * sum + (x - x_mean - this.delta)
+   sum = this.alpha * sum + (x - x_mean - this.delta)
 
 2. 
 
