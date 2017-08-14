@@ -13,7 +13,9 @@
     ```
     -s generators.LEDGeneratorDrift
     ```
-    correct %
+    Result:
     
     ![](/chapter1/ht_correct.PNG)
     ![](/chapter1/ht_kappa.PNG)
+
+    
