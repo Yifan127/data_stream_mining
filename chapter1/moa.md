@@ -35,21 +35,8 @@
      ```
 
      Result comparison:
-     ![](/chapter1/htoverall.PNG)
+     ![](/chapter1/ht_changedetected.PNG)
 
-* Use the same dataset and evaluator, change classifier to **Naive Bayes**.  
-  ![](/chapter1/nboverall.PNG)
-
-* ConceptDriftRealStream: Generator that adds concept drift to examples in a stream with different classes and attributes
-
-  ```
-    java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask \
-    EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d ADWINChangeDetector) \
-    -s (ConceptDriftRealStream -s (ArffFileStream -f D:\Dev\moa\dataset\airlines.arff) \
-    -d (ConceptDriftRealStream -s (ArffFileStream -f D:\dev\moa\dataset\elecNormNew.arff) \
-    -d (ArffFileStream -f D:\Dev\moa\dataset\covtypeNorm.arff) -p 1000000 -w 5000) -p 500000 -w 5000) \
-    > realstream.csv
-  ```
 
 #### Questions:
 1. In PHT, what is this parameter alpha for？
