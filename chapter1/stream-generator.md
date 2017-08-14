@@ -1,6 +1,6 @@
 ### MOA: Try to generate synthetic datasets
 
-*  Scenario1: A prequential evaluation using a sliding window of size 1000 using Hoeffding Tree,with the following stream generators: 
+*  Scenario1: A prequential evaluation with a sliding window of size 1000 using Hoeffding Tree, for the following stream generators: 
     * RandomRBFGeneratorDrift with 0.001 change speed
     ```
     -s (generators.RandomRBFGeneratorDrift -s 1.0E-4)
@@ -18,6 +18,8 @@
     ![](/chapter1/ht_correct.PNG)
     ![](/chapter1/ht_kappa.PNG)
     ![](/chapter1/ht_ram.PNG)
+
+*  Scenario1: A prequential evaluation with a sliding window of size 1000 using Naive Bayes, for the following the same stream generators.
 
 
 
