@@ -56,5 +56,5 @@
 
    sum = this.alpha * sum + (x - x_mean - this.delta)
 
-2. 
+2. SPC and DDM, are they same?
 
