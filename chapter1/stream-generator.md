@@ -17,5 +17,8 @@
     
     ![](/chapter1/ht_correct.PNG)
     ![](/chapter1/ht_kappa.PNG)
+    ![](/chapter1/ht_ram.PNG)
+
+
 
     
