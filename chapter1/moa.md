@@ -25,7 +25,7 @@
   4. **Cusum**
      The accuarcy depends on two parameters: δ corresponds to the magnitude of changes that are allowed, and λ is a user defined threshold. They control the trade-off between earlier detecting the true changes and allowing more false alarms.
 
-  5. ```
+     ```
      EvaluatePrequential -l (drift.SingleClassifierDrift -l trees.HoeffdingTree -d CusumDM)
      ```
   6. **DDM**
