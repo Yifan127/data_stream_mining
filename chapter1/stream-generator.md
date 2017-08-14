@@ -15,9 +15,9 @@
     ```
     Result:
     
-    ![](/chapter1/ht_correct.PNG)
-    ![](/chapter1/ht_kappa.PNG)
-    ![](/chapter1/ht_ram.PNG)
+    ![](/assets/ch1/ht_correct.PNG)
+    ![](/assets/ch1/ht_kappa.PNG)
+    ![](/assets/ch1/ht_ram.PNG)
 
 *  Scenario2: A prequential evaluation with a sliding window of size 1000 using Naive Bayes, for the same stream generators.
     
