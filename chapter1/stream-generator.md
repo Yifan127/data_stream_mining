@@ -19,7 +19,15 @@
     ![](/chapter1/ht_kappa.PNG)
     ![](/chapter1/ht_ram.PNG)
 
-*  Scenario1: A prequential evaluation with a sliding window of size 1000 using Naive Bayes, for the following the same stream generators.
+*  Scenario2: A prequential evaluation with a sliding window of size 1000 using Naive Bayes, for the same stream generators.
+    
+    Result:
+    
+    ![](/chapter1/nb_correct.PNG)
+    ![](/chapter1/nb_kappa.PNG)
+    ![](/chapter1/nb_ram.PNG)
+
+
 
 
 
