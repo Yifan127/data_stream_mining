@@ -1,6 +1,6 @@
 ### MOA: Try to use different change detectors
 
-* Scenario1: A prequential evaluation with Hoeffding Tree as base learner, for the **Electricity** real dataset, use the following 5 change detector:
+* Scenario1: A prequential evaluation with Hoeffding Tree as base learner, for the **Electricity** real dataset, use the following 5 change detectors:
 
   1. **ADWIN** (ADaptive Sliding WINdow)
 
