@@ -36,6 +36,7 @@
 
      Result comparison:
      ![](/chapter1/ht_changedetected.PNG)
+     ![](/chapter1/ht_cd_ram.PNG)
 
 
 #### Questions:
