@@ -23,9 +23,9 @@
     
     Result:
     
-    ![](/chapter1/nb_correct.PNG)
-    ![](/chapter1/nb_kappa.PNG)
-    ![](/chapter1/nb_ram.PNG)
+    ![](/assets/ch1/nb_correct.PNG)
+    ![](/assets/ch1/nb_kappa.PNG)
+    ![](/assets/ch1/nb_ram.PNG)
 
 
 
