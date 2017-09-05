@@ -30,5 +30,13 @@ There are three All three attributes have values between 0 and 10, but only the 
 * **AgrawalGenerator**
 
   The generator produces a stream containing nine attributes, six numeric and three categorical. These attributes determine weather the loan should be approved. There are ten functions defined for generating binary class labels from the attributes.
+  
+  **Example**:
+  ```
+  java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask
+   "WriteStreamToARFFFile -s (ConceptDriftRealStream -s (generators.AgrawalGenerator -f 7) 
+   -d (generators.AgrawalGenerator -f 2) -w 1000 -p 900) 
+   -f D:\UoA\Dissertation\Week3\AgrawalDriftStream.arff -m 2000"
+  ```
 
 
