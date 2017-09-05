@@ -37,8 +37,8 @@ MOA uses the sigmoid function to define the probability that every new instance 
 
 -s : Stream
 -d : Concept drift Stream
--p : Central position of concept drift change
--w : Width of concept drift change
+**-p : Central position of concept drift change
+-w : Width of concept drift change**
 -f: Classification function used, as defined in the original paper
 
 
