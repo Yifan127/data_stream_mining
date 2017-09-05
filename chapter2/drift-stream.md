@@ -15,7 +15,7 @@ MOA uses the sigmoid function to define the probability that every new instance 
   * function4: f1 + f2 &lt;= 9.5
 
 
-  Example:
+  **Example**:
   ```
   java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask
    "WriteStreamToARFFFile -s (ConceptDriftRealStream -s (generators.SEAGenerator -f 1) 
