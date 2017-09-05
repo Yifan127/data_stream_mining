@@ -4,10 +4,8 @@ MOA uses the sigmoid function to define the probability that every new instance 
 
 ![](/assets/ch2/sigmoid.PNG)
 
-
-
 * **SEAGenerator**
-  There are three All three attributes have values between 0 and 10, but only the first two attributes are relevant. A data point belongs to class 1 if f1 + f2 &lt;= theta, where f1 and f2 represent the first two attributes and theta is a threshold. The most frequent values are 9, 8, 7 and 9.5.
+There are three All three attributes have values between 0 and 10, but only the first two attributes are relevant. A data point belongs to class 1 if f1 + f2 &lt;= theta, where f1 and f2 represent the first two attributes and theta is a threshold. The most frequent values are 9, 8, 7 and 9.5.
   
   * function1: f1 + f2 &lt;= 8
   * function2: f1 + f2 &lt;= 9
@@ -31,5 +29,6 @@ MOA uses the sigmoid function to define the probability that every new instance 
 
 * **AgrawalGenerator**
 
+  The generator produces a stream containing nine attributes, six numeric and three categorical. These attributes determine weather the loan should be approved. There are ten functions defined for generating binary class labels from the attributes.
 
 
