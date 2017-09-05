@@ -20,12 +20,6 @@ MOA uses the sigmoid function to define the probability that every new instance 
    -d (generators.SEAGenerator -f 2) -w 1000 -p 900) 
    -f D:\UoA\Dissertation\Week3\SEADriftStream.arff -m 2000"
   ```
-  
-  -s : Stream
-  -d : Concept drift Stream
-  -p : Central position of concept drift change
-  -w : Width of concept drift change
-  -f: Classification function used, as defined in the original paper
 
 * **AgrawalGenerator**
 
@@ -38,5 +32,13 @@ MOA uses the sigmoid function to define the probability that every new instance 
    -d (generators.AgrawalGenerator -f 2) -w 1000 -p 900) 
    -f D:\UoA\Dissertation\Week3\AgrawalDriftStream.arff -m 2000"
   ```
+
+**Parametres**:
+
+-s : Stream
+-d : Concept drift Stream
+-p : Central position of concept drift change
+-w : Width of concept drift change
+-f: Classification function used, as defined in the original paper
 
 
