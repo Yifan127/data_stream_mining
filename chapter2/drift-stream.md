@@ -68,7 +68,7 @@ java -cp moa.jar -javaagent:sizeofag.jar moa.DoTask
 **A list of drifted stream**:
 
 | Generator | Parameter | Description |
-| :-- | :- | :--- |
+| --------- | --------- | ----------- |
 | Agrawal | -f | Classification function used |
 | Hyperplane | -k | The number of attributes with drift |
 | LED & LED Drift | -d | Number of attributes with drift |
