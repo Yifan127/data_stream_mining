@@ -8,3 +8,7 @@
 * Width of change: 10000
 * Sample frequency : 1000
 
+* ** SEA**
+![](/assets/ch2/sea.PNG)
+
+* **Agrawal**
