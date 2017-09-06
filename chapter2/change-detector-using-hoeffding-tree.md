@@ -16,3 +16,6 @@
 
 * **LED**
 ![](/assets/ch2/led.PNG)
+
+* **SEA Abrupt Change**
+change the width of change to a small value : 200
