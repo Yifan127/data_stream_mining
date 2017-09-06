@@ -19,4 +19,5 @@
 
 * **SEA Abrupt Change**
 change the width of change to a small value : 200
+
 ![](/assets/ch2/sea abrupt.PNG)
