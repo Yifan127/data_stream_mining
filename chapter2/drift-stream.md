@@ -8,10 +8,10 @@ MOA uses the sigmoid function to define the probability that every new instance 
 
   There are three All three attributes have values between 0 and 10, but only the first two attributes are relevant. A data point belongs to class 1 if f1 + f2 &lt;= theta, where f1 and f2 represent the first two attributes and theta is a threshold. The most frequent values are 9, 8, 7 and 9.5.
   
-  * function1: f1 + f2 <= 8
-  * function2: f1 + f2 <= 9
-  * function3: f1 + f2 <= 7
-  * function4: f1 + f2 <= 9.5
+  * function1: f1 + f2 `<=` 8
+  * function2: f1 + f2 `<=` 9
+  * function3: f1 + f2 `<=` 7
+  * function4: f1 + f2 `<=` 9.5
 
   **Example**:
   ```
