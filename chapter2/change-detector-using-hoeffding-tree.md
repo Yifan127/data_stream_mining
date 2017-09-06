@@ -12,3 +12,7 @@
 ![](/assets/ch2/sea.PNG)
 
 * **Agrawal**
+![](/assets/ch2/agrawal.PNG)
+
+* **LED**
+![](/assets/ch2/led.PNG)
