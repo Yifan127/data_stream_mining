@@ -6,4 +6,5 @@
 * Instance : 20000
 * Change central point: 9000
 * Width of change: 10000
+* Sample frequency : 1000
 
